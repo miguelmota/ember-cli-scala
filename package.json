@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-scala",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "import Scala files compiled down to JavaScript with Scala.js into your Ember app.",
   "directories": {
     "test": "tests"
@@ -19,7 +19,7 @@
   },
   "author": "Miguel Mota <hello@miguelmota.com> (http://www.miguelmota.com/)",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "broccoli-asset-rev": "^2.0.0",
     "broccoli-filter": "^0.1.11",
     "ember-cli": "0.2.0-beta.1",
@@ -43,7 +43,8 @@
     "scala"
   ],
   "ember-addon": {
-    "configPath": "tests/dummy/config"
+    "configPath": "tests/dummy/config",
+    "main": "index.js"
   },
   "main": "index.js",
   "bugs": {
