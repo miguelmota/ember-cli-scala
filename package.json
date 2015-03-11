@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-scala",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "import Scala files compiled down to JavaScript with Scala.js into your Ember app.",
   "directories": {
     "test": "tests"
