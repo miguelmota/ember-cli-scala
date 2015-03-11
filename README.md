@@ -4,7 +4,7 @@
 
 # Install
 
-```
+```bash
 ember install:addon ember-cli-scala
 ```
 
@@ -12,7 +12,7 @@ ember install:addon ember-cli-scala
 
 `app/scala/Robot.scala`:
 
-```
+```scala
 package robot
 
 import scala.scalajs.js
@@ -29,7 +29,7 @@ object Robot {
 
 Somewhere else in your code:
 
-```
+```javascript
 import Robot from 'ember-cli-scala-demo/scala/Robot.js';
 
 var robot = Robot.Robot();
@@ -39,11 +39,15 @@ console.log(robot.destroyHumans(100)); // "Destroying 100 humans."
 
 # Dependencies
 
-[sbt](http://www.scala-sbt.org/) is required, but if you've been doing Scala development then you should already have it installed.
+[Scala Build Tool (sbt)](http://www.scala-sbt.org/)
 
 ```
 brew install sbt
 ```
+
+# Todo
+
+- Tests
 
 # License
 
