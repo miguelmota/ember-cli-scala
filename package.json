@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-scala",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "import Scala files compiled down to JavaScript with Scala.js into your Ember app.",
   "directories": {
     "test": "tests"
@@ -48,21 +48,22 @@
   "main": "index.js",
   "dependencies": {
     "broccoli-asset-rev": "^2.0.1",
+    "broccoli-filter": "^0.1.11",
+    "ember-cli": "^0.2.0-beta.1",
     "ember-cli-app-version": "^0.3.1",
     "ember-cli-babel": "^4.1.0",
-    "ember-cli": "^0.2.0-beta.1",
     "ember-cli-content-security-policy": "^0.3.0",
-    "ember-cli-htmlbars": "^0.7.4",
     "ember-cli-dependency-checker": "^0.0.7",
-    "ember-cli-inject-live-reload": "^1.3.1",
+    "ember-cli-htmlbars": "^0.7.4",
     "ember-cli-ic-ajax": "^0.1.1",
-    "ember-cli-uglify": "^1.0.1",
-    "ember-export-application-global": "^1.0.2",
+    "ember-cli-inject-live-reload": "^1.3.1",
     "ember-cli-qunit": "^0.3.8",
+    "ember-cli-uglify": "^1.0.1",
+    "ember-data": "^1.0.0-beta.15",
+    "ember-export-application-global": "^1.0.2",
     "express": "^4.12.2",
-    "ncp": "^2.0.0",
     "glob": "^4.5.1",
-    "ember-data": "^1.0.0-beta.15"
+    "ncp": "^2.0.0"
   },
   "bugs": {
     "url": "https://github.com/miguelmota/ember-cli-scala/issues"
