@@ -30,7 +30,7 @@ object Robot {
 Somewhere else in your code:
 
 ```javascript
-import Robot from 'ember-cli-scala-demo/scala/Robot.js';
+import Robot from 'namespace/scala/Robot.js';
 
 var robot = Robot.Robot();
 
